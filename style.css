@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  background-color: black;
+  color: white;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.mv {
+  display: flex;
+}
+
+.keyvisual {
+  width: 100%;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+.keyvisual:first-child {
+  background: url(img/header-flower1.jpeg);
+  background-repeat: no-repeat;
+}
+
+.keyvisual:nth-child(2) {
+  background: url(img/flower11.jpeg);
+  background-repeat: no-repeat;
+}
+
+.keyvisual:last-child {
+  background: url(img/header-flower3.jpeg);
+  background-repeat: no-repeat;
+}
+
+.h1,
+.contents-title {
+  margin: 0 auto;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.h1 {
+  font-size: 10rem;
+  margin-bottom: 100px;
+}
+
+.contents-title {
+  font-size: 6rem;
+  font-weight: lighter;
+}
